@@ -22,7 +22,7 @@ def delete_old_file(path_file):
         os.remove(path_file)
 
 
-def test(value: str, name) -> bool:
+def test(value: str) -> bool:
     if value is None:
         return False
     return True
